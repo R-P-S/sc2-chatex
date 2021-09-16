@@ -73,7 +73,7 @@ ChatEx is published as a public extension mod named `ChatEx Chat Extension` on B
 
 ## Credits
 
-Just ([@Cabcase](https://github.com/Cabcase)) for now, but hopefully more people soon! 
+Just [@Cabcase](https://github.com/Cabcase) for now, but hopefully more people soon! 
 
 ## License
 
