@@ -95,7 +95,7 @@
         </Element>
         <Element Type="Param" Id="83E4E625">
             <ParameterDef Type="ParamDef" Library="Ntve" Id="AEF92396"/>
-            <Value>ChatPlusUI/ChatBarVisibleStateCheckbox</Value>
+            <Value>ChatExUI/ChatBarVisibleStateCheckbox</Value>
             <ValueType Type="string"/>
         </Element>
         <Element Type="FunctionCall" Id="85F5A8E0">
@@ -281,7 +281,7 @@
         </Element>
         <Element Type="Param" Id="08F3F9F7">
             <ParameterDef Type="ParamDef" Library="Ntve" Id="AEF92396"/>
-            <Value>ChatPlusUI/ChatBarContainer/ChatBubblesButton</Value>
+            <Value>ChatExUI/ChatBarContainer/ChatBubblesButton</Value>
             <ValueType Type="string"/>
         </Element>
         <Element Type="FunctionCall" Id="8B2A4F66">
@@ -682,7 +682,7 @@
             <Value Type="Param" Library="CtEx" Id="3E04DF54"/>
         </Element>
         <Element Type="Param" Id="3E04DF54">
-            <Value>ChatPlus_ChatBubbles</Value>
+            <Value>ChatEx_ChatBubbles</Value>
             <ValueType Type="string"/>
         </Element>
         <Element Type="Variable" Id="D58BC09A">
@@ -1046,7 +1046,7 @@
         </Element>
         <Element Type="Comment" Id="666FC77F">
             <Comment>
-                NOTE: The attach text tag action below doesn&apos;t actually end up doing anything
+                NOTE: The offset of the attach text tag action below doesn&apos;t actually end up doing anything
             </Comment>
         </Element>
         <Element Type="FunctionCall" Id="44C62104">
@@ -1079,7 +1079,7 @@
         </Element>
         <Element Type="Param" Id="5D2F780A">
             <ParameterDef Type="ParamDef" Library="Ntve" Id="8F127156"/>
-            <Value>1</Value>
+            <Value>10</Value>
             <ValueType Type="int"/>
         </Element>
         <Element Type="FunctionCall" Id="04B07957">
@@ -1711,7 +1711,7 @@
         </Element>
         <Element Type="Param" Id="FC41AB78">
             <ParameterDef Type="ParamDef" Library="Ntve" Id="AEF92396"/>
-            <Value>ChatPlusUI/LiveTypingContainer/TypingLabel</Value>
+            <Value>ChatExUI/LiveTypingContainer/TypingLabel</Value>
             <ValueType Type="string"/>
         </Element>
         <Element Type="FunctionCall" Id="3C12F5E4">
@@ -1797,7 +1797,7 @@
         </Element>
         <Element Type="Param" Id="09BA1BB4">
             <ParameterDef Type="ParamDef" Library="Ntve" Id="00000212"/>
-            <Value>ChatPlusUI/LiveTypingContainer/PlayerLabel</Value>
+            <Value>ChatExUI/LiveTypingContainer/PlayerLabel</Value>
             <ValueType Type="string"/>
         </Element>
         <Element Type="Param" Id="105DAACB">
@@ -2725,7 +2725,7 @@
         </Element>
         <Element Type="Param" Id="604BF18A">
             <ParameterDef Type="ParamDef" Library="Ntve" Id="AEF92396"/>
-            <Value>ChatPlusUI/ChatBarContainer/RecentMessagesButtonPair/PreviousMessageButton</Value>
+            <Value>ChatExUI/ChatBarContainer/RecentMessagesButtonPair/PreviousMessageButton</Value>
             <ValueType Type="string"/>
         </Element>
         <Element Type="FunctionCall" Id="FC0A2A7A">
@@ -2755,7 +2755,7 @@
         </Element>
         <Element Type="Param" Id="75E53C97">
             <ParameterDef Type="ParamDef" Library="Ntve" Id="AEF92396"/>
-            <Value>ChatPlusUI/ChatBarContainer/RecentMessagesButtonPair/NextMessageButton</Value>
+            <Value>ChatExUI/ChatBarContainer/RecentMessagesButtonPair/NextMessageButton</Value>
             <ValueType Type="string"/>
         </Element>
         <Element Type="FunctionCall" Id="17EBDDE4">
@@ -2861,18 +2861,18 @@
         <Element Type="Param" Id="2FEDE80D">
             <ParameterDef Type="ParamDef" Library="Ntve" Id="AEF92396"/>
             <ExpressionType Type="string"/>
-            <ExpressionText>ChatPlusUI/TextSetterLabels/Label~A~</ExpressionText>
+            <ExpressionText>ChatExUI/TextSetterLabels/Label~A~</ExpressionText>
             <ExpressionParam Type="Param" Library="CtEx" Id="AE42A6EC"/>
         </Element>
         <Element Type="Param" Id="AE42A6EC">
-            <FunctionCall Type="FunctionCall" Library="CtEx" Id="78D8A3CB"/>
+            <FunctionCall Type="FunctionCall" Library="CtEx" Id="864C7836"/>
             <ExpressionCode Value="A"/>
         </Element>
-        <Element Type="FunctionCall" Id="78D8A3CB">
+        <Element Type="FunctionCall" Id="864C7836">
             <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000002"/>
-            <Parameter Type="Param" Library="CtEx" Id="F9E40531"/>
+            <Parameter Type="Param" Library="CtEx" Id="5EB2947E"/>
         </Element>
-        <Element Type="Param" Id="F9E40531">
+        <Element Type="Param" Id="5EB2947E">
             <ParameterDef Type="ParamDef" Library="Ntve" Id="00000002"/>
             <Variable Type="Variable" Library="CtEx" Id="EBADF3DC"/>
         </Element>
@@ -3888,7 +3888,7 @@
         </Element>
         <Element Type="Param" Id="91D91889">
             <ParameterDef Type="ParamDef" Library="Ntve" Id="AEF92396"/>
-            <Value>ChatPlusUI/ChatBarContainer/RpgCameraButton</Value>
+            <Value>ChatExUI/ChatBarContainer/RpgCameraButton</Value>
             <ValueType Type="string"/>
         </Element>
         <Element Type="FunctionCall" Id="3FF1D24D">

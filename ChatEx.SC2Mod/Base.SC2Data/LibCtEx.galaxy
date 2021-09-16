@@ -79,7 +79,7 @@ bool auto_libCtEx_gf_display_chat_bubble_TriggerFunc (bool testConds, bool runAc
     // Variable Initialization
     lv_message_length_without_xml = libCtEx_gf_string_length_without_xml(lp_message);
     lv_message_duration = (5+lv_message_length_without_xml/(4.8+1)/200*60);
-    lv_text_tag_data_table_key = ("ChatEx/Units/" + IntToString(UnitGetTag(lp_unit)) + "/TextTag");
+    lv_text_tag_data_table_key = ("ChatPlus/Units/" + IntToString(UnitGetTag(lp_unit)) + "/TextTag");
 
     // Implementation
     lp_message = StringReplaceWord(lp_message, "(", ("<s val=\"" + lv_cHAT_BUBBLE_FONT + "_Italic\">("), c_stringReplaceAll, c_stringCase);
@@ -92,7 +92,7 @@ bool auto_libCtEx_gf_display_chat_bubble_TriggerFunc (bool testConds, bool runAc
     TextTagSetBackgroundImage(TextTagLastCreated(), "Assets\\Textures\\ui_battlenet_glue_listboxframe.dds", true);
     TextTagSetBackgroundBorderSize(TextTagLastCreated(), 1.0, 1.0);
     TextTagShowBackground(TextTagLastCreated(), true);
-    TextTagAttachToUnitPoint(TextTagLastCreated(), lp_unit, "Ref_Overhead", 0, 1);
+    TextTagAttachToUnitPoint(TextTagLastCreated(), lp_unit, "Ref_Overhead", 0, 10);
     TextTagSetAlignment(TextTagLastCreated(), c_alignCenter, c_alignBottom);
     TextTagSetTextAlignment(TextTagLastCreated(), c_alignLeft, c_alignTop);
     if ((libNtve_gf_ValueFromDataTableTextTag(true, lv_text_tag_data_table_key) != c_textTagNone)) {
